@@ -28,6 +28,7 @@ class Heap{
             m_array.assign(a_array.begin(),a_array.end()); 
         }
 
+        //Compare comp 传进来一个函数！！
         template<typename Compare>
         void sort(Compare comp);
 
