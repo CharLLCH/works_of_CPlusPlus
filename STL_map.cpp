@@ -17,6 +17,7 @@ using namespace std;
  *      maplive.insert(pair<int,string>(102,"aclive"));
  *      maplive.insert(map<int,string>::value_type(321,"aclive"));
  *      maplive[112] = "april";   最简单的插入方式，没有就插入，有就覆盖
+ *  ps:pair只含一对数，map的每个成员都是pair，map是一个集合类型，永远保持排序
  *
  * 3. 查找
  *      find()函数返回一个迭代器指向键值为key的元素，如果没有找到返回指向尾部的迭代器
