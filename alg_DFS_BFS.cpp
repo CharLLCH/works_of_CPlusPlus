@@ -41,7 +41,7 @@ void depthFistSearch(Tree root){
     Tree node;
     while(!nodeStack.empty()){
         node = nodeStack.top();
-    cout<<node->data<<endl;
+        cout<<node->data<<endl;
         nodeStack.pop();
         if(node->rchild){
             nodeStack.push(node->rchild);

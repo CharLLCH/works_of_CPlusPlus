@@ -8,6 +8,7 @@
 
 using namespace std;
 
+// TODO 将mid分开的两半进行合并（用一个临时T* tmp）
 template <typename T> void Merge(T *array, int low, int mid, int high){
     int i, j, k;
     i = low;
